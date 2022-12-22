@@ -1,0 +1,200 @@
+*{margin:0; padding:5;}
+section {
+  background-color: hsla(200, 92%, 90%, 0.842);
+}
+
+header {
+  background-color: rgba(17, 38, 231, 0.616);
+  color: rgb(202, 12, 12);
+  z-index: 1000;
+
+
+}
+
+header a {
+  color: #fff;
+
+}
+header::after {
+  content: "";
+  width: 80%;
+  height: 90px;
+  background-color: rgba(43, 153, 243, 0.959);
+
+  left: 900;
+  bottom: -90px;
+}
+
+.nav-link {
+  font-family: "Rajdhani", sans-serif;
+  text-transform: uppercase;
+
+
+
+
+}
+.contact {
+  font-size: 12px;
+}
+
+.tel {
+  margin-right: 90px;
+}
+
+.contact i {
+  color: #f80909;
+  margin-right: 10px;
+}
+
+.login {
+  padding: 20px 20px;
+  font-size: 14px;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.navbar-brand img {
+  width: 135px;
+}
+
+.navbar-collapse .search-form input[type="text"] {
+  border: 5px solid #38555221;
+  padding: 0.5625rem 1.925rem;
+}
+
+.navbar-collapse .search-form .btn {
+  margin-top: 10;
+  border-radius: 10;
+  margin-left: 1px;
+}
+
+.navbar-collapse .nav-link {
+  font-size: 1.125rem;
+  transition: all 0.2s ease-in-out;
+
+}
+
+/*-----------------------------------
+    1 -Recordatorios centrales
+------------------------------------*/
+.recent-posts {
+  padding: 145px 0 100px;
+}
+
+.recent-posts .btn {
+  margin-top: -580px;
+  color: rgb(21, 21, 31);
+
+}
+
+.recent-posts .row .col-lg-6:nth-of-type(odd) .post-thumb {
+  margin-top: 20px;
+}
+
+.recent-posts .row .col-lg-6:nth-of-type(even) .post-thumb {
+  margin-bottom: 30px;
+}
+
+.single-rpost {
+  margin: 15px 0 0;
+}
+
+.post-thumb {
+  flex: 0 0 237px;
+}
+
+.post-content {
+  color: #ccc;
+}
+
+.post-content time {
+  font-size: 20px;
+  color: rgb(221, 31, 31);
+
+}
+
+.post-content h3 {
+  margin: 19px 0 82px;
+
+}
+
+.post-content h3 a {
+  color: #26264b;
+  font-weight: 600;
+}
+
+.post-content h3 a:hover {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.post-content a {
+  color: #ccc;
+}
+
+.post-content a:hover {
+  color: #26264b;
+}
+
+.post-content .post-btn {
+  color: #6e6e6e;
+  text-align: center;
+  font-size: 10px;
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  border-radius: 50%;
+  background-color: rgb(207, 204, 204);
+}
+
+.post-content .post-btn:hover {
+  color: #fff;
+  background-color: #ee1515;
+}
+
+/* iconos de mas abajo */
+
+/*-----------------------------------
+    1 - Services
+------------------------------------*/
+.title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.title h6 {
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+.title h1 {
+  font-size: 35px;
+}
+
+.title .title-blue {
+  color: #26264b;
+}
+
+.title .title-primary {
+  color: #ee1515;
+}
+
+.services {
+  padding: 80px 0 50px;
+}
+
+.services .title {
+  margin-bottom: 20px;
+}
+
+.services .media {
+  margin: 40px 0;
+}
+
+.services h5 {
+  color: #26264b;
+  border-bottom: 2px solid #e9b6b6;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
